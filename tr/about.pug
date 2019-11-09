@@ -1,0 +1,57 @@
+extends main.pug
+
+block css
+  <link rel="stylesheet" type="text/css" href="../css/stiller.css">
+  <link rel="stylesheet" type="text/css" href="../css/hakkimizda.css">
+
+block content
+  ul.hakkimizda.animated.flash
+    li
+      .konu
+        h2 Mercode'a Hoşgeldiniz!!
+        p(style='font-size: 14px;')
+          | Mercode; yazılımcıları, hackerları, aktivistleri, makerları ve tasarımcıları tek çatı altında toplayan, internetin merkezsizleşmesi ve kullanıcıların özgürleşmesi üzerine açık kaynaklı özgür yazılım projeleri üreten ve varolan projeleri geliştirip destekleyen bir topluluk ve sosyal ağdır.
+        a.button(href='#')
+          i.fa.fa-play(aria-hidden='true')
+          |  Video İzle
+    li
+      .konu
+        h2
+          strike Şirket, Marka, Girişim değil
+          | , Bir Topluluk!
+        p(style='font-size: 14px;')
+          | Mercode; bir girişim, şirket veya marka değildir ve kesinlikle kâr amacı gütmez. Mercode'un yegane amacı, Türkiye ve dünyadaki özgür yazılım ve STEM anlayışlarını gelir amacıyla kullanmaya çalışan kuruluşların, yazılımcı istismarının ve emeğe yapılan saygısızlıkların önüne geçmek, insanlara merkezsiz ve özgür internet anlayışını aşılamaktır. Bu büyük amaç için Mercode ekibi ve topluluğu, açık kaynaklı projeler yaparak adını duyurmaya devam etmektedir.
+        a.button(href='http://hub.mercode.org/register')
+          i.fa.fa-sign-in(aria-hidden='true')
+          |  Kaydol
+        a.button(href='https://github.com/mercode-org')
+          i.fa.fa-fork(aria-hidden='true')
+          |  Katkıda Bulun
+    li
+      .konu
+        h2 Sizin Bağışlarınızla Hayatta Kalıyoruz!
+        p(style='font-size: 14px;')
+          | Merkür ve alt projeleri, tamamen kullanıcıların ve ekip üyelerinin bağışlarıyla tutunur. Sonuç olarak Merkür’ün devamlılığı tamamen topluluğun yani siz insanların ellerindedir. Bu ekibin topluluğa daha çok katkı sağlaması için, sunucu ve diğer masraflarını ödemesine yardımcı olmak veya üyelere bir kahve ısmarlamak için Patreon'dan veya Etherium aracılığıyla bağış yapabilirsiniz. Eğer Merkür devamlılığını ve hizmetlerini sürdüremeyecek duruma gelirse, *onlar* kazanır.
+        a.button(href='https://www.patreon.com/mercode')
+          i.fa.fa-money(aria-hidden='true')
+          |  Bağış Yap
+    li
+      .konu
+        h2 Bir Halk Takımı
+        p(style='font-size: 14px;')
+          | Mercode'da, takım ile topluluk arasında büyük bir ayrım yoktur. Herkes, geçmişine veya yaşına bakılmaksızın Mercode'a destek olabilir ve ekibimize katılabilir. Katılmak için tek gereklilik, bu güzel FOSS topluluğuna katkıda bulunmak ve desteklemek.
+        a.button(href='join.pug')
+          i.fa.fa-handshake-o(aria-hidden='true')
+          |  Bize Katıl
+        a.button(href='https://github.com/mercode-org')
+          i.fa.fa-fork(aria-hidden='true')
+          |  Katkıda Bulun
+    li
+      .konu
+        h2 Özgürleşmek için Merkeziyetsizleş!
+        p(style='font-size: 14px;')
+          | Biz insanlığın sınırlar, ülkeler ve bayrakları internet ile aşabileceğine inanıyoruz. Ne yazık ki aslında sahipsiz olması gereken Web, büyük şirket ve devletlerin sunucu monopolileriyle ele geçirilmiş durumda. Bu istilayı önlemenin tek yolu merkeziyetsizleşmek!  
+        a.button(href='projects.pug')
+          i.fa.fa-tasks(aria-hidden='true')
+          |  Projeler
+block footer

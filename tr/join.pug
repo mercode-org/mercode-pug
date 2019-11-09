@@ -1,0 +1,33 @@
+extends main.pug
+
+block css
+  <link rel="stylesheet" type="text/css" href="../css/stiller.css">
+
+block content
+  <form method="POST" action="https://formspree.io/tansiretakinci@yandex.com">
+    <div class="txtb">
+      <label><span>İsim</span>
+        <input required type="text" name="name" placeholder="İsminizi yazın (gerekli)"></label>
+    </div>
+
+    <div class="txtb">
+      <label><span>E-posta</span>
+        <input required type="email" name="replyto" placeholder="E-postanızı yazın (gerekli)"></label>
+    </div>
+
+    <div class="txtb">
+      <label><span>Telefon</span>
+        <input required type="number" name="phone" placeholder="Telefon numaranızı yazın (gerekli)"></label>
+    </div>
+    
+    <div class="txtb">
+      <label><span>Deneyim</span>
+        <input required type="text" name="name" placeholder="Deneyiminizden bahsedin (gerekli)"></label>
+    </div>
+
+    <div class="txtb">
+      <label><span>CV</span>
+        <textarea name="message" placeholder="Biraz <u>kendinden</u> bahset."></textarea></label>
+    </div>
+    <button class="formbutton" type="submit"><i class="fa fa-handshake-o" aria-hidden="true" style="font-size: 22px;"></i><a class="sendit">   Bize katıl!</a></button>
+  </form>

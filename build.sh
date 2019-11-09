@@ -3,3 +3,4 @@ git pull origin master
 pug -w ./ -o ./public
 pug -w ./tr -o ./public/tr
 cp -fpr ./public /var/www/mercode.org
+echo Done! (probably)

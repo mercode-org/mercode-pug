@@ -1,4 +1,4 @@
-window.$ = require('jquery')
+window.$ = require('jquery-3.3.1.js')
 
 $(document).ready(function() {
   $('.menu-toggle').click(function() {

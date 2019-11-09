@@ -31,10 +31,28 @@ block content
       .konu
         h2 We Survive with Your Donations!
         p(style='font-size: 14px;')
-          | Mercode and its subprojects are existing thanks to the donations of our users and team members. So the progression of Mercode is in the hands of the community. If you would like to see this team contributing more to the community, you can donate us on Patreon to help us paying our server bills or to order us a coffee (because we need it after long hours of coding). If Mercode wouldn&rsquo;t be able to keep contributing, *they* will win.
-        a.button(href='https://www.patreon.com/mercode')
+          | Mercode and its subprojects are existing thanks to the donations of our users and team members. So the progression of Mercode is in the hands of the community. If you would like to see this team contributing more to the community, you can donate us on Patreon or send Etherium to our wallet to help us paying our server bills or to order us a coffee (because we need it after long hours of coding). If Mercode wouldn&rsquo;t be able to keep contributing, *they* will win.
+        a.button(href='#popup3')
           i.fa.fa-money(aria-hidden='true')
           |  Donate
+        <div id="popup3" class="overlay">
+          .popup
+            h2 Donate to Mercode
+            a.close(href='#') &times;
+            <div class="content">
+              .minialan1
+                img.svg(src='assets/donation.svg', alt='Make Donations to Mercode!')
+              .paragraf1
+                | If you would like to see this team contributing more to the community, you can donate us on Patreon or send Etherium to our wallet to help us paying our server bills or to order us a coffee (because we need it after long hours of coding).
+                br
+              .butonalan
+                <a href="" class="button"><i class="fa fa-money" aria-hidden="true"></i>  Pateron</a>
+                br
+                <input type="text" value="0xf65C6EE66b6f831Ac212A86C2c3502FC285C978E" id="myInput">
+                br
+                <a onclick="copyClipboard()" class="button"><i class="fa fa-files-o" aria-hidden="true"></i>  ETH</a>
+            </div>
+        </div>
     li
       .konu
         h2 A Team of People

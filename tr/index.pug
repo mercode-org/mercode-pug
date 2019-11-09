@@ -9,6 +9,24 @@ block content
 
   <a href="join.pug" class="button animated pulse delay-1s"><i class="fa fa-handshake-o" aria-hidden="true"></i>  Bize Katıl</a>
   <a href="https://hub.mercode.org/register" class="button animated pulse delay-1s"><i class="fa fa-sign-in" aria-hidden="true"></i>  Kaydol</a>
-  <a href="https://www.patreon.com/mercode" class="button animated pulse delay-1s"><i class="fa fa-money" aria-hidden="true"></i>  Bağış Yap</a>
+  <a href="#popup3" class="button animated pulse delay-1s"><i class="fa fa-money" aria-hidden="true"></i>  Bağış Yap</a>
   <br>
   p(style="color: #afafaf") Mercode Topluluğu tarafından &nbsp;&nbsp; &lt;3 ile yapıldı.
+  <div id="popup3" class="overlay">
+    .popup
+      h2 Mercode'a Bağış Yap
+      a.close(href='#') &times;
+      <div class="content">
+        .minialan1
+          img.svg(src='../assets/donation.svg', alt='Mercode&apos;a bağış yapın!')
+        .paragraf1
+          | Bu ekibin topluluğa daha çok katkı sağlaması, sunucu ve diğer masraflarını ödemesine yardımcı olmak veya üyelere bir kahve ısmarlamak için (yorucu bir günün ardından çok iyi geliyor) Patreon'dan veya Etherium aracılığıyla bağış yapabilirsiniz.
+          br
+        .butonalan
+          <a href="" class="button"><i class="fa fa-money" aria-hidden="true"></i>  Pateron</a>
+          br
+          <input type="text" value="0xf65C6EE66b6f831Ac212A86C2c3502FC285C978E" id="myInput">
+          br
+          <a onclick="copyClipboard()" class="button"><i class="fa fa-files-o" aria-hidden="true"></i>  ETH</a>
+      </div>
+  </div>

@@ -74,7 +74,7 @@
   margin-left: 5px;
   margin-right: 5px;
 }
-.kripto[type=text] {
+.kripto{
   background-color: #555;
   color: #fff;
   width: 100%;

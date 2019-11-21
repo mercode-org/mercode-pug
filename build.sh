@@ -1,6 +1,6 @@
 echo Copyleft 2019 Mercode - Protected by GPLv3 certificate.
-echo Reseting local Git history...
-git reset -- hard
+echo Stashing local changes...
+git stash save --keep-index
 git pull -f origin master
 pug -w ./ -o ./mercode.org
 pug -w ./tr -o ./mercode.org/tr

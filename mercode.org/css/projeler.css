@@ -39,12 +39,7 @@
   background-position: center;
 }
 .projeler li:nth-child(3){
-  background: url(../assets/merkuros2.jpg);
-  background-size: cover;
-  background-position: center;
-}
-.projeler li:nth-child(5){
-  background: url(../assets/merkuros.jpg);
+  background: url(../assets/meros4.png);
   background-size: cover;
   background-position: center;
 }

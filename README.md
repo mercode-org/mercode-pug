@@ -1,2 +1,2 @@
 # mercode.org
-Github repository of mercode.org (pug)
+Github repository of mercode.org (pug).

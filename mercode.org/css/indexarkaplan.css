@@ -166,12 +166,12 @@ button:hover, header ul li a:hover {
   font-size: 60px;
   font-weight: 1000;
   text-align: center;
-  background: white;
+  color: white;
   /*background: -webkit-linear-gradient(#000428, #004e92);*/
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
 }
+h1 {
 
+}
 h3 {
   font-size: 25;
   font-size: bold;

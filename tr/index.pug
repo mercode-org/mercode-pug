@@ -4,11 +4,25 @@ block css
   <link rel="stylesheet" type="text/css" href="../css/indexarkaplan.css">
 
 block content
-  <div class="hos"> Mercode: yazılımcılardan yazılımcılara.</div>
-  <h3>Kar Amacı Gütmeyen Açık Kaynaklı Özgür Yazılım Organizasyonu/OS ve Sosyal Ağ.</h3>
-
-  <a href="join.html" class="button animated pulse delay-1s"><i class="fa fa-handshake-o" aria-hidden="true"></i>  Bize Katıl</a>
-  <a href="https://hub.mercode.org/register" class="button animated pulse delay-1s"><i class="fa fa-sign-in" aria-hidden="true"></i>  Kaydol</a>
-  <a href="#donate" class="button animated pulse delay-1s"><i class="fa fa-money" aria-hidden="true"></i>  Bağış Yap</a>
-  <br>
-  p(style="color: #afafaf") Mercode Topluluğu tarafından &nbsp;&nbsp; &lt;3 ile yapıldı.
+  .hos
+    | Mercode: 
+    span.ityped
+  h3
+    | Mercode, merkeziyetsiz web uygulamaları ve Linux distroları geliştiren özgür yazılım topluluğudur.
+  a.button.animated.pulse.delay-1s(href='join.html')
+    i.fa.fa-handshake-o(aria-hidden='true')
+    |   Bize Katıl
+  a.button.animated.pulse.delay-1s(href='https://hub.mercode.org/register')
+    i.fa.fa-sign-in(aria-hidden='true')
+    |   Kaydol
+  a.button.animated.pulse.delay-1s(href='#donate')
+    i.fa.fa-money(aria-hidden='true')
+    |   Bağış Yap
+  br
+  p(style="color: #afafaf") Mercode Topluluğu tarafından &nbsp;&nbsp; &lt;3 ile yapıldı
+  script(type='text/javascript' src='../js/ityped.js')
+  script(type='text/javascript').
+    window.ityped.init(document.querySelector('.ityped'),{
+    cursorChar: ".",
+    strings : ['Özgürlük','Gizlilik','Güvenlik', 'Birlik']
+    })

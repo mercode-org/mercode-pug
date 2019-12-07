@@ -4,14 +4,25 @@ block css
   <link rel="stylesheet" type="text/css" href="css/indexarkaplan.css">
 
 block content
-  <div class="hos"> Mercode: By devs, for devs.</div>
-  <h3>Non-Profit Free Open Source Software/OS Foundation and Social Network for Developers Worldwide</h3>
-
-  <a href="join.html" class="button animated pulse delay-1s"><i class="fa fa-handshake-o" aria-hidden="true"></i>  Join Us</a>
-  <a href="https://hub.mercode.org/register" class="button animated pulse delay-1s"><i class="fa fa-sign-in" aria-hidden="true"></i>  Register</a>
-  <a href="#donate" class="button animated pulse delay-1s"><i class="fa fa-money" aria-hidden="true"></i>  Donate</a>
-  <br>
+  .hos
+    | Mercode: 
+    span.ityped
+  h3
+    | Mercode is a Free Open Source Software Community aimed to create decentralized apps and Linux distros.
+  a.button.animated.pulse.delay-1s(href='join.html')
+    i.fa.fa-handshake-o(aria-hidden='true')
+    |   Join Us
+  a.button.animated.pulse.delay-1s(href='https://hub.mercode.org/register')
+    i.fa.fa-sign-in(aria-hidden='true')
+    |   Register
+  a.button.animated.pulse.delay-1s(href='#donate')
+    i.fa.fa-money(aria-hidden='true')
+    |   Donate
+  br
   p(style="color: #afafaf") Made with &lt;3 &nbsp;&nbsp; by The Mercode Community.
-  
-
-  
+  script(type='text/javascript' src='./js/ityped.js')
+  script(type='text/javascript').
+    window.ityped.init(document.querySelector('.ityped'),{
+    cursorChar: ".",
+    strings : ['Liberty','Privacy','Security', 'Solidarity']
+    })

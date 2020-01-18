@@ -49,6 +49,12 @@ header nav ul li a {
   padding: 0 20px;
   color: #fff;
   text-decoration: none;
+  transition: 0.2s;
+}
+
+header nav ul li a:hover {
+  color: black;
+  transition: 0.2s;
 }
 
 .menu-toggle {
@@ -97,14 +103,14 @@ header nav ul li a {
 }
 
 a.button {
-  border-color: #ff4d0d;
+  border-color: #ffffff;
   border-style: solid;
   border-width: 2px;
   border-radius: 22px;
   outline: 0;
   display: inline-block;
   padding: 8px;
-  color: #ff4d0d;
+  color: #ffffff;
   background: none;
   border-radius: 8px;
   text-align: center;
@@ -139,7 +145,7 @@ button:hover, header ul li a:hover {
   font-size: 60px;
   font-weight: 1000;
   text-align: center;
-  color: white;
+  color: #ffffff;
   /*background: -webkit-linear-gradient(#000428, #004e92);*/
 }
 h1 {
@@ -149,7 +155,7 @@ h3 {
   font-size: 25;
   font-size: bold;
   text-align: center;
-  color: white;
+  color: #ffffff;
 }
 
 a.1buton {
@@ -163,14 +169,14 @@ button:hover, header ul li a:hover {
 }
 
 a.button2 {
-    border-color: white;
+    border-color: #ffffff;
     border-style: solid;
     border-width: 2px;
     border-radius: 22px;
     outline: 0;
     display: inline-block;
     padding: 8px;
-    color: white;
+    color: #ffffff;
     background: none;
     border-radius: 8px;
     text-align: center;
@@ -185,7 +191,7 @@ a.button2 {
 
 a.button2:hover {
   font-size: 20px;
-  color: white;
+  color: #ffffff;
   background: linear-gradient(45deg,rgba(0, 4, 40, 0.9),rgba(0, 78, 146, 0.9));
   border: none;
   transition: all 0.2s linear;
@@ -196,13 +202,13 @@ a.button2:hover {
   font-weight: 1000;
   text-align: left;
   margin-left: 25px;
-  color: white;
+  color: #ffffff;
 }
 .mo1 {
   font-size: 20px;
   text-align: left;
   margin-left: 25px;
-  color: white;
+  color: #ffffff;
 }
 .wrapper{
   position: absolute;
@@ -306,7 +312,7 @@ a.button2:hover {
     bottom: 0;
     width: 100%;
     background:  linear-gradient(45deg,rgba(255,29,17,0.9),rgba(255,162,6,0.9));
-    color: white;
+    color: #ffffff;
     text-align: center;
 }
 
@@ -346,7 +352,7 @@ a.button2:hover {
 
 .footer-sosyal-ikon ul li a {
   font-size: 27px;
-  color: white;
+  color: #ffffff;
 }
 
 .footer-sosyal-ikon ul li a:hover {

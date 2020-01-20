@@ -197,6 +197,30 @@ a.button2:hover {
   transition: all 0.2s linear;
 }
 
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #212121;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #353535;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 162, 6, 0.9);
+}
+
+::-webkit-scrollbar-thumb:active{
+  background: linear-gradient(45deg, rgba(255, 29, 17, 0.9), rgba(255, 162, 6, 0.9));
+}
+
+.scroller {
+  scrollbar-color: #FFA206;
+}
+
 .mo {
   font-size: 40px;
   font-weight: 1000;

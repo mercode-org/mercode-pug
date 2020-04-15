@@ -82,7 +82,7 @@ a.button {
 }
 
 .three {
-	background: linear-gradient(45deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../assets/dwarfs.gif');
+	background: linear-gradient(45deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../assets/flappux.gif');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;

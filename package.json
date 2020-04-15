@@ -8,7 +8,7 @@
   },
   "scripts": {
     "start": "pug -w ./ -o ./mercode.org & pug -w ./tr -o ./mercode.org/tr & http-server -p 3333 mercode.org",
-    "build": "pug ./ -o ./mercode.org && pug ./tr -o ./mercode.org/tr"
+    "build": "pug ./ -o ./mercode.org & pug ./tr -o ./mercode.org/tr & ./mercode.org/games/pull.sh"
   },
   "devDependencies": {
     "http-server": "^0.12.1"
